@@ -1,1 +1,41 @@
 /* Empty. Add your own CSS if you like */
+.info-user{
+  color:#fff;
+}
+.info-user h4 {
+  color: #fff;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.avatar img {
+  width: 64px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+}
+.no-margin {
+  margin: 0 !important;
+}
+.padding-5 {
+  padding:10px;
+}
+.tab-navigation.active {
+  background-color: #f8f7f7;
+}
+.border {
+  border: 1px solid #ddd;
+}
+.tab-navigation {
+  line-height: 15px;
+  padding: 10px 0;
+  background-color: #ecedf0;
+}
+.tab-navigation.active {
+  background-color: #f8f7f7;
+}

@@ -1,9 +1,52 @@
-<ion-view view-title="Account">
-  <ion-content>
-    <ion-list>
-    <ion-toggle  ng-model="settings.enableFriends">
-        Enable Friends
-    </ion-toggle>
-    </ion-list>
+<ion-view view-title="帐户">
+  <ion-content scroll="false" vertical layout>
+    <div class="energized-bg info-user">
+      <div class="padding text-center">
+        <div class="avatar">
+          <img src="./img/200_taylor_swift_spl811605_.jpg" alt="" class="img-responsive"/>
+        </div>
+        <h4 class="no-margin">请登陆</h4>
+      </div>
+    </div>
+
+    <div class="navigation-profile" horizontal layout>
+      <div flex class="tab-navigation text-center border active">
+        <div>42</div>
+        <div>Stories</div>
+      </div>
+      <div flex class="tab-navigation text-center border">
+        <div>517</div>
+        <div>Followers</div>
+      </div>
+      <div flex class="tab-navigation text-center border">
+        <div>284</div>
+        <div>Test</div>
+      </div>
+    </div>
+
+    <div flex class="list no-margin">
+      <a class="item item-icon-left" ui-sref="">
+        <i class="icon ion-email"></i>
+        Profile page1
+      </a>
+      <div class="padding-5"></div>
+      <a class="item item-icon-left" ui-sref="">
+        <i class="icon ion-chatbubble-working"></i>
+        Profile page1
+        <span class="badge badge-assertive">0</span>
+      </a>
+      <div class="padding-5"></div>
+      <a class="item item-icon-left" ui-sref="">
+        <i class="icon ion-person-stalker"></i>
+        Profile page1
+      </a>
+      <div class="padding-5"></div>
+      <a class="item item-icon-left" ui-sref="">
+        <i class="icon ion-email"></i>
+        Profile page1
+        <span class="badge badge-assertive">34</span>
+      </a>
+    </div>
+
   </ion-content>
 </ion-view>
